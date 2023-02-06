@@ -1,0 +1,11 @@
+<h1>Matrículas Validadas</h1>
+
+<div class="matri-container"> 
+    <a href="/addmatricula">Adicionar Matrícula</a>
+    {{#each matri}}
+    <div>
+        #{{this.id}} - <span class="bold"><a href="/matri/{{this.id}}">{{this.nome}}</a>Cadastrado</span>{{this.cadastro}}
+    </div>
+    {{/each}}
+
+</h1>

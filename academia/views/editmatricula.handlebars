@@ -1,0 +1,17 @@
+<h1>Editar matricula</h1>
+
+<form action="/matri/updatematricula" method="POST" class="form">    
+    <input type="hidden" name="id" value="{{matricula.id}}">
+   
+    <div class="form-control">
+        <label for="title">nome</label>
+        <input type="text" name="nome" id="nome" placeholder="nome " value="{{matricula.nome}}">
+    </div>
+
+    <div class="form-control">
+        <label for="cadastro">Cadastro</label>
+        <input type="text" name="cadastro" id="cadastro" placeholder="cadastro" value="{{matricula.cadastro}}">
+    </div>
+    <input type="submit" value="editar">
+</form>
+<br>

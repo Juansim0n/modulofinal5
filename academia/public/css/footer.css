@@ -1,0 +1,71 @@
+   #container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+  }
+  
+  footer{
+    margin-top: 5%;
+    float: left;
+    width: 100%;
+    background-color:  #081826;
+    padding: 2px;
+  }
+  #container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+  }
+  #row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .rodape{
+    width: 25%;
+  }
+  .rodape h2{
+    font-size: 22px;
+    color: #f27405;
+    margin-bottom: 20px;
+    font-weight:  500;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .rodape h3{
+    font-size: 20px;
+    color: #f27405;
+    margin-bottom: 10px;
+    font-weight:  500;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .rodape ul{
+    list-style: none;
+  }
+  .rodape ul li{
+    margin: 10px 0;
+  }
+  .rodape ul li a{
+    font-size: 16px;
+    
+    color: #f27405;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .rodape ul li :hover{
+    color: #cecdcd;
+    padding-left: 10px;
+  }
+  
+  
+
+
+  
+ 
+  

@@ -1,0 +1,66 @@
+.main-login{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #ffaf47;
+    width: 462px;
+    height: 472px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+
+}
+
+section#login > div#formulario {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    height: 249px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: o.8em;
+
+}
+
+#estilo{
+    border-top: 1px solid rgb(58, 58, 58);
+    margin: 10px;
+    
+}
+
+#divbotao{
+    display: inline-grid;
+}
+
+#ilogin, #isenha{
+    width: 296px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;  
+}
+
+#botao-login{
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #7e6700;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #af9e00;
+}
